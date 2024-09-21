@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "openai-python"
+version = "0.1.0"
+description = ""
+authors = ["William Kurniawan <williamkurniawan1144@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+openai = "^1.45.1"
+python-dotenv = "^1.0.1"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
