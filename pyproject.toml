@@ -2,13 +2,15 @@
 name = "openai-python"
 version = "0.1.0"
 description = ""
-authors = ["William Kurniawan <williamkurniawan1144@gmail.com>"]
+authors = ["williamk19 <williamkurniawan1144@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.12"
 openai = "^1.45.1"
 python-dotenv = "^1.0.1"
+fastapi = {extras = ["standard"], version = "^0.115.0"}
+jinja2 = "^3.1.4"
 
 
 [tool.poetry.group.dev.dependencies]
